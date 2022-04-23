@@ -18,5 +18,5 @@ npx create-react-app my-app
 cd my-app
 git clone https://github.com/thoriqilhamizaidan/FinalProject.git
 npm start
-Cara yang kedua: klik link deploy berikut: https://finalproject-thoriqilhamizaidan.vercel.app/
+Cara yang kedua: klik link deploy berikut: https://hwgigih.vercel.app/
 

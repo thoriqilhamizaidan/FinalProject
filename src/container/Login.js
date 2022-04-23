@@ -42,7 +42,7 @@ function Login() {
   const getSpotifyLogin = () => {
     const state = Date.now().toString();
     const clientId = 'd3fe14e1ee5847bcaea6301c95120ce1';
-    return `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&redirect_uri=http://localhost:3000/`;
+    return `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&redirect_uri=https://https://hwgigih.vercel.app/&state=${state}&scope=${config.SPOTIFY_SCOPE}`;
   }
 
   return (
